@@ -1,0 +1,60 @@
+@media (max-width: 980px) {
+    .main-images {
+        
+    }
+
+    .container {
+        display: flex; 
+            flex-direction: column;
+        }
+
+        .images-bg {
+            margin: 0;
+        }
+
+        .footer-сontent {
+            flex-wrap: wrap;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .images-bg {
+            overflow: hidden;
+            display: none;
+        }
+    }
+
+    @media (max-width: 450px) {
+        .vtoroy-blok {
+            flex-wrap: wrap;
+            display: block;
+        }
+
+        .liker {
+            text-align: center;
+        }
+
+        .footer-main-2 {
+            flex-wrap: wrap;
+        }
+
+        .pervi-blok {
+            margin-top: -30px;
+        }
+    }
+
+    @media (max-width: 430px) {
+    .pervi-blok {
+        padding: 16px;
+    
+    }
+
+    .logo {
+        margin-top: 30px;
+    }
+    .logo-instagram {
+       width: 140px;
+    }
+
+    
+}
