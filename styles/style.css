@@ -7,10 +7,10 @@
 
 
 body{
-    background: rgb(243, 243, 243);
+    background: rgb(250, 250, 250);
 }
 .container {
-    max-width: 1100px;
+    max-width: 1110px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -30,32 +30,43 @@ body{
 
 }
 
+.container4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .images-bg {
     display: flex;
-    margin-right: -200px;
+    margin-right: -293px;
+    width: 400px;
+    margin-top: 30px;
 }
 
 
 .section-2 {
     display: flex;
    flex-direction: column;
+   max-width: 350px;
+   width: 100%;
    
 }
 
 
 .container-2 {
     display: flex;
-   margin-top: 50px;
+   margin-top: 35px;
     
+
 }
 
 .pervi-blok {
     display: flex;
     flex-direction: column;
     background: rgb(255, 255, 255);
-    padding: 48px;
-    padding-top: 70px;
-    padding-bottom: 60px;
+    padding: 0px;
+    padding-top: 50px;
+    padding-bottom: 35px;
     text-align: center;
     border: 2px solid rgb(214, 213, 213);
     border-width: 1px;
@@ -66,30 +77,46 @@ body{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    padding-top: 20px;
+    margin-top: 10px;
 }
 
 .input-1 {
-    margin-bottom: 8px;
-    font-size: 13px;
-    padding: 10px 7px;
-    background: rgb(248, 248, 248);
-    width: 280px;
-    border: 2px solid rgb(199, 199, 199);
-    border-width: 1px;
-    border-radius: 2px;
+    margin-bottom: 7px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 12px;
+    padding: 11px 7px;
+    background: rgb(250, 250, 250); 
+    border: 1px solid #00000021;
+    border-radius: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .input-2 {
     margin-bottom: 15px;
-    font-size: 13px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 11px;
     padding: 12px 7px;
-    width: 280px;
-    background: rgb(248, 248, 248);
-    border: 2px solid rgb(199, 199, 199);
-    border-width: 1px;
-    border-radius: 2px;
+    background: rgb(250, 250, 250);
+    border: 1px solid #00000021;
+    border-radius: 3px;
     
+}
+
+.button {
+    margin-bottom: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 14px;
+    color: white;
+    background: rgba(105, 192, 236, 0.918);
+    border: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    opacity: 0.7;
+
 }
 
 .poloska-main {
@@ -97,23 +124,12 @@ body{
     justify-content: space-around;
     color: rgb(199, 199, 199) ;
     margin-top: -25px;
-    align-items: center
+    align-items: center;
 }
 
 
 
-.button {
-    font-size: 15px;
-    color: white;
-    background: rgb(105, 193, 236);
-    border: 0px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    width: 295px;
-    border-radius: 4px;
-    opacity: 0.7;
 
-}
 
 .button:hover {
     background: rgb(3, 104, 245);
@@ -122,22 +138,26 @@ body{
 
 .title-p {
     color:  rgb(157, 155, 155) ;
-    font-size: 15px;
+    font-size: 14px;
     font-family: arial;
 }
 
 .title-p2 {
- 
+    color: rgb(38, 38, 38);
+ font-size: 13px;
+ padding-left: 10px;
+ padding-right: 4px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .title-link {
     
     display: flex;
     justify-content: center;
-    color: rgba(var(--d69,0,149,246),1);
-    font-size: 15px;
-    font-family: arial;
-    
+    color: rgba(0,149,246);
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 10px;
 }
 
 .vtoroy-blok {
@@ -152,14 +172,16 @@ body{
     
 }
 
-.liker {
+.vtoroy-blok__container {
+    display: flex;
+    align-items: center;
     background: white;
     margin-top: 0px;
-    padding: 20px ;
-    padding-inline-end: 45px;
-    
-    
+    padding: 23px 25px;
+    font-family: arial;
 }
+
+
 
 
 
@@ -167,15 +189,24 @@ body{
     
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 18px;
     margin-bottom: -10px;
 
 }
 
+.facebook__iconka {
+    padding-right: 6px;
+    font-size: 17px;
+    
+}
+
 .facebook-link {
+    
     color: #385185;
-    font-family: arial;
-    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    
 }
 
 .facebook-link:hover {
@@ -184,10 +215,10 @@ body{
     
 
 .password-not {
-
+     font-family: arial;
     color: #385185;
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 15px;
+    font-size: 11px;
 }
 
 .password-not:hover {
@@ -204,18 +235,20 @@ body{
 .title-3 {
     margin: 15px 0;
     margin-top: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
 }
 
 
 .apple {
-    width: 120px;
-    padding-right: 5px;
-    margin-top: 10px;
+    width: 135px;
+    padding-right: 1px;
+    margin-top: 5px;
     
 }
 
 .google {
-    width: 120px;
+    width: 135px;
     padding-left: 5px;
     
 }
@@ -224,11 +257,23 @@ body{
 /* footer */
 
 .footer-link {
-    font-size: 13px;
+    font-size: 12px;
     font-family: arial;
-    color: rgb(108, 107, 107);
+    color: rgb(142, 142, 142);
+    padding: 5px 8px;
+    
+}
+
+.footer-link-2 {
+    font-size: 12px;
+    font-family: arial;
+    color: rgb(142, 142, 142);
     padding: 7px;
     
+}
+input:focus {
+    outline-color: rgba(0, 0, 0, 0.176);
+    outline: 0;
 }
 
 .footer {
@@ -239,31 +284,38 @@ body{
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 42px;
 }
 
 .footer-сontent {
     display: flex;
     flex-direction: row;
     justify-content: center ;
+    flex-wrap: wrap;
 }
 
-.footer-main-2 {
+.footer__main-2 {
     display: flex;
     justify-content: center;
     margin-bottom: 14px;
+    flex-wrap: wrap;
 }
 
-.ul-1 {
+.footer__main-li {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 
 }
 
-.li-1 {
-    font-size: 14px;
-    font-family: arial;
-    color: rgb(108, 107, 107);
+.footer__main-link1 {
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(108, 107, 107, 0.795);
 }
 
+/* END */
+
+
+  
+   
